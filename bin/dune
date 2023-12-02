@@ -1,0 +1,5 @@
+(executable
+ (public_name aoc2023)
+ (name main)
+ (libraries aoc2023 core ppx_deriving)
+ (preprocess (pps ppx_jane ppx_deriving.show)))
